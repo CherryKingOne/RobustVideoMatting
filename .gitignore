@@ -1,0 +1,29 @@
+# ===== 模型权重 =====
+models/*
+!models/.gitkeep
+
+# ===== 推理输出 =====
+output/*
+!output/.gitkeep
+data/output/*
+!data/output/.gitkeep
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+dist/
+build/
+
+# ===== IDE =====
+.idea/
+.vscode/
+.DS_Store
+
+# ===== 运行时状态 =====
+*.log
